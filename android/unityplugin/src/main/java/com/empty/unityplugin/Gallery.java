@@ -32,7 +32,7 @@ public class Gallery extends Activity {
             UnityPlayer.UnitySendMessage("AndroidPlugin", "GetImage", changeUri);
         }
 
-        fileList();
+        finish();
     }
 
     private String absPath(Uri uri) {
